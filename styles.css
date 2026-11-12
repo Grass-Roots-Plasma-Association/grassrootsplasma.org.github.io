@@ -88,8 +88,8 @@ h1 {
 }
 
 .gif-stack img {
-  width: 92px;
-  height: 92px;
+  width: 184px;
+  height: 184px;
   object-fit: cover;
   border-radius: 18px;
   border: 1px solid rgba(159, 214, 255, 0.28);
@@ -169,6 +169,13 @@ h1 {
   bottom: 10%;
 }
 
+@media (max-width: 900px) {
+  .gif-stack img {
+    width: 138px;
+    height: 138px;
+  }
+}
+
 @media (max-width: 700px) {
   .header-row {
     display: block;
@@ -179,7 +186,7 @@ h1 {
   }
 
   .gif-stack {
-    margin-top: 1rem;
+    margin: 1rem auto 0;
   }
 }
 
@@ -190,8 +197,8 @@ h1 {
   }
 
   .gif-stack img {
-    width: 74px;
-    height: 74px;
+    width: 148px;
+    height: 148px;
   }
 
   .status-row {
